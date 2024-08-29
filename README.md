@@ -23,8 +23,7 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/seu-usuario/solar-efficiency-tracker.git
-    cd solar-efficiency-tracker
+    git clone https://https://github.com/ricardocamargo07/wasteless
     ```
 
 2. Instale as dependências:
