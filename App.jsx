@@ -2,6 +2,7 @@ import React from "react";
 import { Provider } from "react-native-paper";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
+import { StatusBar } from "expo-status-bar";
 
 import { theme } from "./app/core/theme";
 import {
@@ -17,6 +18,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <Provider theme={theme}>
+      <StatusBar style="dark" />
       <NavigationContainer>
         <Stack.Navigator
           initialRouteName="StartScreen"
@@ -26,7 +28,6 @@ export default function App() {
         >
           <Stack.Screen name="StartScreen" component={StartScreen} />
           <Stack.Screen name="LoginScreen" component={LoginScreen} />
-          <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
           <Stack.Screen name="HomeScreen" component={HomeScreen} />
           <Stack.Screen
             name="ResetPasswordScreen"

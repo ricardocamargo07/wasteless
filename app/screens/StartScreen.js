@@ -10,22 +10,13 @@ export default function StartScreen({ navigation }) {
   return (
     <Background>
       <Logo />
-      <Header>Welcome to Exlogrn</Header>
-      <Paragraph>
-        A starter app template for React Native Expo, featuring a ready-to-use
-        login screen.
-      </Paragraph>
+      <Header>Welcome</Header>
+      <Paragraph>Let the earnings begin!</Paragraph>
       <Button
         mode="contained"
         onPress={() => navigation.navigate("LoginScreen")}
       >
         Log in
-      </Button>
-      <Button
-        mode="outlined"
-        onPress={() => navigation.navigate("RegisterScreen")}
-      >
-        Create an account
       </Button>
     </Background>
   );

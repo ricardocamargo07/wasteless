@@ -24,9 +24,10 @@ const styles = StyleSheet.create({
     width: "100%",
     marginVertical: 10,
     paddingVertical: 2,
+    borderRadius: 20,
   },
   text: {
-    fontWeight: "bold",
+    fontWeight: "italic",
     fontSize: 15,
     lineHeight: 26,
   },

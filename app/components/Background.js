@@ -25,7 +25,6 @@ const styles = StyleSheet.create({
   background: {
     flex: 1,
     width: "100%",
-    backgroundColor: theme.colors.surface,
   },
   container: {
     flex: 1,
@@ -34,6 +33,5 @@ const styles = StyleSheet.create({
     maxWidth: 340,
     alignSelf: "center",
     alignItems: "center",
-    justifyContent: "center",
   },
 });
