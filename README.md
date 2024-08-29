@@ -1,42 +1,33 @@
-# Exlogrn 🚀
+Solar Efficiency Tracker
+Este é um aplicativo para controle da eficiência de placas solares, desenvolvido em React Native utilizando o Expo. O Solar Efficiency Tracker permite que os usuários monitorem a produção de energia das suas placas solares, acompanhem o desempenho ao longo do tempo e identifiquem possíveis problemas que possam afetar a eficiência do sistema.
 
-A starter app template for React Native Expo, featuring a ready-to-use login screen.
+Funcionalidades
+Monitoramento em Tempo Real: Acompanhe a produção de energia em tempo real.
+Histórico de Desempenho: Veja o histórico de produção de energia e compare o desempenho ao longo do tempo.
+Alertas de Eficiência: Receba notificações caso o desempenho caia abaixo de um nível esperado.
+Relatórios: Gere relatórios detalhados sobre o desempenho do sistema solar.
+Integração com Dispositivos IoT: Conecte-se aos inversores e sensores de temperatura para uma análise mais detalhada.
+Pré-requisitos
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de desenvolvimento:
 
-![AllScreens](assets/screenshot/snap.png)
+Node.js (versão 12 ou superior)
+Expo CLI
+Git
+Instalação
+Clone o repositório:
 
-## About ✔️
+bash
+Copiar código
+git clone https://github.com/seu-usuario/solar-efficiency-tracker.git
+cd solar-efficiency-tracker
+Instale as dependências:
 
-What can you do with this template 🤔
+bash
+Copiar código
+npm install
+Inicie o projeto com o Expo:
 
-- Log in with an email address and password.
-- Create an account with a name, email address and password.
-- Sign out.
-
-This template is a good way to start an application with a system of connection, disconnection, and creation of an account.  
-You will just need to adapt it according to your needs.
-
-![Made-In-Senegal](https://github.com/GalsenDev221/made.in.senegal/blob/master/assets/badge.svg)
-
-## Usage ℹ️
-
-Click on the **[Use this template](https://github.com/daoodaba975/exlogrn/generate)** button on this page to clone this respository to your GitHub account or you can clone this respository.
-
-- Install dependencies
-
-```bash
-yarn install
-```
-
-- Start the app
-
-```bash
+bash
+Copiar código
 npx expo start
-```
-
-You can take a look on Expo's [docs](https://docs.expo.dev).
-
-### Licence 🚨
-
-This template is released under the **[MIT License](LICENSE.md)**.
-
-Enjoy ✌🏽
+Abra o app no seu dispositivo móvel usando o aplicativo Expo Go (disponível na Play Store e App Store) ou emuladores.
